@@ -1,0 +1,29 @@
+# .gitignore
+data/*.sas7bdat
+data/*.parquet
+
+# Ignore editor directories and files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Ignore log files
+*.log
+
+# Ignore compiled Python files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore dependency directories
+*.egg-info/
+.eggs/
+pip-log.txt
