@@ -2,6 +2,7 @@
 data/*.sas7bdat
 data/*.parquet
 data/train_test_split.zip
+data/train_test_dummies_split.zip
 
 # Ignore editor directories and files
 .vscode/
