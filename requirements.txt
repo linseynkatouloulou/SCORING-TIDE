@@ -3,3 +3,4 @@ sas7bdat
 matplotlib
 seaborn
 pyarrow
+scikit-optimize

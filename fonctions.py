@@ -41,3 +41,11 @@ def split_data(data, test_size=0.2, random_state=None, zip_path='.../data/train_
     os.remove(test_file)
     
     return train_data, test_data
+
+def defined_X_y(df, target) :
+    variables = df.drop(columns=[target])
+    X = variables
+    y = df[target]
+    return X, y
+
+
