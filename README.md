@@ -16,18 +16,10 @@ Transactions de cartes bancaires (Données réelles)
 • La variable fraude permet d’identifier les transactions frauduleuses
 
 
+COMMENT LIRE NOTRE CODE : 
 
-EXPLICATION
+Les codes dans analyse sont classés de 1 à 3 afin de lire le code dans l'ordre de traitement.
 
-Le code nettoyage_data sert a nettoyer les data pour qu'on utilise un dataframe clean des le debut. Il est ensuite sauvergarder dans un parquet (comme un csv) mais que tu ne verra pas car je l'ai pas push sur github. C'est en lancant le code data_exploration que le fichier est utilisé. Si tu veux continuer lance donc d'abord nettoyage_data puis tu pourras travailler sur data_exploration.
+Les modèles étudiés sont dans la partie modélisation.
 
-____
-
-quelles variables conisèdere t-on comme catégorielles ? j'hesite pour les fm 
-
-Je me suis inspirée du tp. Pour la partie multivariée a par une matrice de corrélation et nuage de point, je ne vois pas ce qu'on peut faire de plus 
-
-Aussi pour fm_difference je ne vois rien de pertinent à faire
-
-_____
-
+Les bases de données parquet étant trop lourdes sont ignorées dans le gitignore
