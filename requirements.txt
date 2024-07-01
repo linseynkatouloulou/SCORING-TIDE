@@ -3,3 +3,7 @@ sas7bdat
 matplotlib
 seaborn
 pyarrow
+scikit-optimize
+numpy==1.26.4
+xgboost
+imblearn
